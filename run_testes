@@ -1,0 +1,24 @@
+#!/bin/bash
+# Purpose: Dispara os testes
+#
+# Author: Valter Teodoro
+# --------------------------------------
+echo "Inicia os testes..."
+
+echo "Inicializa ambiente de Testes"
+echo "Instala a biblioteca de report Allure"
+npm install allure-commandline@2.13.0
+
+echo "Instala as dependencias do projeto de teste"
+bundle install
+
+echo "Incia os testes de Aceite"
+TAGS="\"${EXEC_TAGS:-"@acceptance and not @wip"}\""
+rake run_acceptance[chrome,"${TAGS}"]
+
+
+echo "Gera relatorio da execução dos testes "
+allure generate allure-results/web
+
+
+echo "Fim"

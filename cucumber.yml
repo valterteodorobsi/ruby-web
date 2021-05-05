@@ -1,0 +1,5 @@
+#default: --no-source --color --format pretty --format html --out report.html
+
+chrome: PLATFORM_NAME='chrome'
+firefox: PLATFORM_NAME='firefox'
+report: --format AllureCucumber::CucumberFormatter  --out allure-results/chrome

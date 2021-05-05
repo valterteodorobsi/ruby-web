@@ -1,0 +1,48 @@
+# Logfile created on 2021-05-05 11:06:25 -0300 by logger.rb/v1.4.3
+I, [2021-05-05T11:07:48.975539 #36649]  INFO -- : Teste Acessar a tela de Inicial do sistema finalizado
+I, [2021-05-05T11:28:41.236797 #37398]  INFO -- : Teste Acessar a tela de Inicial do sistema finalizado
+I, [2021-05-05T11:57:38.696873 #38727]  INFO -- : Teste Acessar a tela de Inicial do sistema finalizado
+I, [2021-05-05T12:12:18.031127 #38990]  INFO -- : Teste Acessar a tela de Inicial do sistema finalizado
+I, [2021-05-05T12:25:42.519591 #40054]  INFO -- : Teste Acessar a tela de Inicial do sistema finalizado
+I, [2021-05-05T12:32:21.445802 #40232]  INFO -- : Teste Cadastrar usuário com dados válidos finalizado
+I, [2021-05-05T12:32:27.136631 #40232]  INFO -- : Teste Acessar a tela de Inicial do sistema finalizado
+I, [2021-05-05T12:38:55.139179 #40713]  INFO -- : Teste Cadastrar usuário com dados válidos finalizado
+I, [2021-05-05T12:39:00.500791 #40713]  INFO -- : Teste Acessar a tela de Inicial do sistema finalizado
+I, [2021-05-05T12:42:42.062077 #41232]  INFO -- : Teste Cadastrar usuário com dados válidos finalizado
+I, [2021-05-05T12:42:47.618081 #41232]  INFO -- : Teste Acessar a tela de Inicial do sistema finalizado
+I, [2021-05-05T13:06:46.991630 #43734]  INFO -- : Teste Cadastrar usuário com dados válidos finalizado
+I, [2021-05-05T13:06:53.481434 #43734]  INFO -- : Teste Acessar a tela de Inicial do sistema finalizado
+I, [2021-05-05T13:12:30.645506 #44555]  INFO -- : Teste Acessar a tela de Inicial do sistema finalizado
+I, [2021-05-05T13:13:33.330257 #44675]  INFO -- : Teste Cadastrar usuário com dados válidos finalizado
+I, [2021-05-05T13:13:40.397841 #44675]  INFO -- : Teste Acessar a tela de Inicial do sistema finalizado
+I, [2021-05-05T13:14:02.731939 #44758]  INFO -- : Teste Cadastrar usuário com dados válidos finalizado
+I, [2021-05-05T13:14:09.606370 #44758]  INFO -- : Teste Acessar a tela de Inicial do sistema finalizado
+I, [2021-05-05T15:56:44.447961 #71532]  INFO -- : Teste Cadastrar usuário com dados válidos finalizado
+I, [2021-05-05T15:58:03.573251 #71532]  INFO -- : Teste Acessar a tela de Inicial do sistema finalizado
+I, [2021-05-05T16:25:33.238567 #72920]  INFO -- : Teste Cadastrar usuário com dados válidos finalizado
+I, [2021-05-05T16:25:39.006676 #72920]  INFO -- : Teste Acessar a tela de Inicial do sistema finalizado
+I, [2021-05-05T16:28:15.488884 #73160]  INFO -- : Teste Cadastrar usuário com dados válidos finalizado
+I, [2021-05-05T16:28:21.746942 #73160]  INFO -- : Teste Acessar a tela de Inicial do sistema finalizado
+I, [2021-05-05T16:39:17.467756 #74126]  INFO -- : Teste Cadastrar usuário com dados válidos finalizado
+I, [2021-05-05T16:41:00.625667 #74318]  INFO -- : Teste Cadastrar usuário com dados válidos finalizado
+I, [2021-05-05T16:41:04.821036 #74318]  INFO -- : Teste Acessar a tela de Inicial do sistema finalizado
+I, [2021-05-05T17:07:19.353561 #76027]  INFO -- : Teste Cadastrar usuário com dados válidos finalizado
+I, [2021-05-05T17:07:32.246301 #76027]  INFO -- : Teste Acessar a tela de Inicial do sistema finalizado
+I, [2021-05-05T17:09:06.653210 #76186]  INFO -- : Teste Cadastrar usuário com dados válidos finalizado
+I, [2021-05-05T17:09:12.515027 #76186]  INFO -- : Teste Acessar a tela de Inicial do sistema finalizado
+I, [2021-05-05T17:23:37.741488 #78123]  INFO -- : Teste Cadastrar usuário com dados válidos finalizado
+I, [2021-05-05T17:25:37.104350 #78291]  INFO -- : Teste Cadastrar usuário com dados válidos finalizado
+I, [2021-05-05T17:28:28.660833 #78604]  INFO -- : Teste Cadastrar usuário com dados válidos finalizado
+I, [2021-05-05T17:29:02.112928 #78685]  INFO -- : Teste Cadastrar usuário com dados válidos finalizado
+I, [2021-05-05T17:30:16.867180 #78910]  INFO -- : Teste Cadastrar usuário com dados válidos finalizado
+I, [2021-05-05T18:42:21.834338 #90025]  INFO -- : Teste Cadastrar usuário com dados válidos finalizado
+I, [2021-05-05T18:42:33.056780 #90025]  INFO -- : Teste Acessar a tela de Inicial do sistema finalizado
+I, [2021-05-05T18:42:39.146504 #90025]  INFO -- : Teste Validar acesso finalizado
+I, [2021-05-05T18:44:05.686797 #90209]  INFO -- : Teste Cadastrar usuário com dados válidos finalizado
+I, [2021-05-05T18:44:13.287852 #90209]  INFO -- : Teste Acessar a tela de Inicial do sistema finalizado
+I, [2021-05-05T18:44:20.223642 #90209]  INFO -- : Teste Validar acesso finalizado
+I, [2021-05-05T20:13:05.772639 #6372]  INFO -- : Teste Cadastrar usuário com dados válidos finalizado
+I, [2021-05-05T20:13:11.857006 #6372]  INFO -- : Teste Acessar a tela de Inicial do sistema finalizado
+I, [2021-05-05T20:13:15.723582 #6372]  INFO -- : Teste Validar acesso finalizado
+I, [2021-05-05T20:15:59.176378 #6627]  INFO -- : Teste Cadastrar usuário com dados válidos finalizado
+I, [2021-05-05T20:16:07.275445 #6627]  INFO -- : Teste Acessar a tela de Inicial do sistema finalizado
