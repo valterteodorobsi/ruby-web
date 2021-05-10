@@ -1,0 +1,12 @@
+allure-report
+allure-results/**/*.json
+allure-results/**/*.png
+doc
+exec-logs/*.log
+*.aab
+.vscode
+
+
+node_modules/
+nohup.out
+package-lock.json

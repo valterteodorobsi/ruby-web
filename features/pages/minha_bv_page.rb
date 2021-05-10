@@ -14,7 +14,6 @@ class MinhaBvPage < SitePrism::Page
 
   def preencher_cpf cpf
     cpf.set cpf
-
   end
 
   def preencher_senha

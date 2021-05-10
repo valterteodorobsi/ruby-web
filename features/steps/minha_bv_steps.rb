@@ -3,6 +3,7 @@ Dado(/^Que acesso a pagina login minha bv$/) do
 end
 
 Quando(/^preencho os dados de cpf e senha$/) do
+  #nao implementado
   @apps.minha_bv_page.preencher_cpf
   @apps.minha_bv_page.preencher_senha
   @apps.minha_bv_page.clicar_continuar

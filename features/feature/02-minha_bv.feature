@@ -1,7 +1,7 @@
 #language: pt
 #encoding: utf-8
-
-
+#nao implementado
+@minhaBV
 Funcionalidade: logar no minha bv
 
   Contexto:

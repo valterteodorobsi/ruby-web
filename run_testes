@@ -1,24 +1,46 @@
 #!/bin/bash
-# Purpose: Dispara os testes
-#
+#Dispara os testes
 # Author: Valter Teodoro
 # --------------------------------------
 echo "Inicia os testes..."
 
-echo "Inicializa ambiente de Testes"
+echo "Inicializa o  ambiente de Testes"
 echo "Instala a biblioteca de report Allure"
-npm install allure-commandline@2.13.0
+npm install allure-commandline
 
 echo "Instala as dependencias do projeto de teste"
 bundle install
 
-echo "Incia os testes de Aceite"
+echo "Incia os testes no chrome"
 TAGS="\"${EXEC_TAGS:-"@acceptance and not @wip"}\""
 rake run_acceptance[chrome,"${TAGS}"]
 
+echo "Gera relatorio da execução dos testes do chrome"
+allure generate allure-results/chrome
 
-echo "Gera relatorio da execução dos testes "
-allure generate allure-results/web
+
+echo "Incia os testes no firefox"
+TAGS="\"${EXEC_TAGS:-"@acceptance and not @wip"}\""
+rake run_acceptance[firefox,"${TAGS}"]
+
+echo "Gera relatorio da execução dos testes do firefox"
+allure generate allure-results/firefox
+
+
+echo "Incia os testes no safari"
+TAGS="\"${EXEC_TAGS:-"@acceptance and not @wip"}\""
+rake run_acceptance[safari,"${TAGS}"]
+
+echo "Gera relatorio da execução dos testes do safari "
+allure generate allure-results/safari
+
+
+echo "Incia os testes no internet_explorer"
+TAGS="\"${EXEC_TAGS:-"@acceptance and not @wip"}\""
+rake run_acceptance[internet_explorer,"${TAGS}"]
+
+echo "Gera relatorio da execução dos testes do IE"
+allure generate allure-results/internet_explorer
 
 
 echo "Fim"
