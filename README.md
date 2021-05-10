@@ -1,4 +1,4 @@
-# qarentena-front-web-ruby
+#front-web-ruby
 
 Ambiente:
 - Ruby (versão utilizada para criação do projeto - 3.0.1) com DevKit
