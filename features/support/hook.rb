@@ -6,7 +6,6 @@ Before do
   @apps = Apps.new
   @data = {}
   inicia_data()
-
 end
 
 Before do |cenario|
@@ -21,7 +20,7 @@ end
 
 
 After do |cenario|
-    screenshot 'resultado'
+   screenshot 'resultado'
    $logger.info("Teste #{@cenario_name} finalizado")
 
 end

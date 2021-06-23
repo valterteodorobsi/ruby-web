@@ -52,7 +52,7 @@ def platform_check(args)
     ENV['BROWSER'] = args[:browser]
   when 'firefox'
     ENV['BROWSER'] = args[:browser]
-  when 'internet_explorer'
+  when 'Edge'
     ENV['BROWSER'] = args[:browser]
   when 'safari'
     ENV['BROWSER'] = args[:browser]

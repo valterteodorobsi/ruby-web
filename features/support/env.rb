@@ -21,15 +21,11 @@ Capybara.register_driver :site_prism do |app|
     Capybara::Selenium::Driver.new(app, browser: :chrome)
   when 'firefox'
     Capybara::Selenium::Driver.new(app, browser: :firefox)
-  when 'internet_explorer'
+  when 'Edge'
     Capybara::Selenium::Driver.new(app, browser: :internet_explorer)
   when 'safari'
     Capybara::Selenium::Driver.new(app, browser: :safari)
   end
-
-
-
-
 end
 
 Capybara.configure do |config|
@@ -37,9 +33,10 @@ Capybara.configure do |config|
   Capybara.default_driver = :site_prism
   Capybara.page.driver.browser.manage.window.maximize
   config.default_max_wait_time = 30
-  config.app_host = 'http://siad.consinter.org/'
-  #config.app_host =  'http://148.91.232.227/CMS-ISSUER/loginUser.jsf?dswid=5303'
-  #http://siad.consinter.org/
+   config.app_host = 'https://dev.sharesl.com.br/' 
+   #//Aqui melhorias para chamar pela variavel ENV.....
+  #config.app_host = 'http://localhost:3000/'
+
 end
 
 
@@ -47,7 +44,7 @@ end
 
 Allure.configure do |config|
   config.results_directory = './allure-results/'
-  config.clean_results_directory  = false
+  config.clean_results_directory = false
 end
 
 def esvaziar_pasta(caminho_pasta)

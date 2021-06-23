@@ -6,3 +6,8 @@ massa:
   nome: "Eshilane"
   email: "eshi7.mcruz@gmail.com"
   senha: "12345"
+
+
+loginAdm:
+  nome: "admin@admin.com"
+  senha: "mitre123"

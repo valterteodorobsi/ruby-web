@@ -1,9 +1,13 @@
 
-
 def screenshot(step)
   # screenshot = Base64.encode64(File.open(screenshot, "rb").read)
-  screenshot =  page.save_screenshot("allure-results/chrome/#{@cenario_name} - #{step}.png")
-  Allure.add_attachment(name: "#{@cenario_name} - #{step}", source: screenshot, type: Allure::ContentType::PNG)
+  env = ENV['BROWSER']
+  screenshot = page.save_screenshot("allure-results/#{env}/#{@cenario_name} - #{step.gsub(/([@#!%()\-=;><,{}\~\[\]\.\/\?\"\*\^\$\+\-]+)/, '')}.png")
+  Allure.add_attachment(name:
+                          "#{@cenario_name} - #{step}",
+                        source: screenshot,
+                        type: Allure::ContentType::PNG,
+                        test_case: true)
 end
 
 
@@ -11,7 +15,6 @@ end
 module Allure
   class FileWriter
     def write(name, source)
-      #screenshot(name)
       filename = File.join(output_dir, name)
       File.open(filename, "w") { |file| file.write(source) }
     end

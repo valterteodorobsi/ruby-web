@@ -37,10 +37,10 @@ allure generate allure-results/safari
 
 echo "Incia os testes no internet_explorer"
 TAGS="\"${EXEC_TAGS:-"@acceptance and not @wip"}\""
-rake run_acceptance[internet_explorer,"${TAGS}"]
+rake run_acceptance[Edge,"${TAGS}"]
 
 echo "Gera relatorio da execução dos testes do IE"
-allure generate allure-results/internet_explorer
+allure generate allure-results/Edge
 
 
 echo "Fim"

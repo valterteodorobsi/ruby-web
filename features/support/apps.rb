@@ -1,13 +1,13 @@
 class Apps
-  def cadastros_page
-    CadastroPage.new
+  def home_shared_page
+    HomeSharedPage.new
   end
 
-  def login_page
-    LoginPage.new
-  end
+  def  home_shared_page_inicial
+    HomeSharedPageInicial.new
+    end
 
-  def minha_bv_page
-    MinhaBvPage.new
+  def  cadastar_signatario_page
+    CadastarSignatarioPage.new
   end
 end
