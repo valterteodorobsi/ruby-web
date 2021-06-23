@@ -6,3 +6,7 @@ E(/^insiro os dados "([^"]*)","([^"]*)", "([^"]*)", "([^"]*)"$/) do |nome, email
   @apps.cadastar_signatario_page.clicar_em_cadastrar_signatarios
 
 end
+
+Entao(/^devo receber a mensagem de "([^"]*)"$/) do |msg|
+  expect(@apps.cadastar_signatario_page).to have_content msg
+end

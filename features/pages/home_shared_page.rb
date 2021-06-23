@@ -26,7 +26,4 @@ class HomeSharedPage < SitePrism::Page
     screenshot("Entar")
   end
 
-  def home
-    home.visible?
-  end
 end

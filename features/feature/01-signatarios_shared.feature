@@ -20,4 +20,8 @@ Funcionalidade: Cadastar Signatários
   @cadastar_novo_signatario @funcional
   Cenário: Cadastrar novo seguinatários
     E insiro os dados "Joaqui Da silva ","joaquim@ferreira.com.br", "Testemunha", "Butantã"
-    Entao devo acessar a tela inicial do cadastro de signatarios "Sucesso"
+    Entao devo receber a mensagem de "Sucesso"
+    #-------------------------------
+    # Ate aqui esta Ok o fluxo de login e fluxo de acesso,
+    # Melhorias daqui para frente
+    # ------------------------------
